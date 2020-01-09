@@ -1,0 +1,21 @@
+.home-main-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;}
+        
+        
+ .call-to-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 1rem;
+        align-self: center;
+        justify-content: center;
+        
+    }
+    @media(max-width:900px){
+        .home-main-section{
+            justify-content: center;
+        }
+    }
